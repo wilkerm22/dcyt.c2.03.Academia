@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <button id="vAcademia_btAgregar">Agregar Aspirante</button>
+      <button id="vAcademia_btEliminar">Eliminar Aspirante</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Curso</th>
+          <th>Costo</th>
+          <th>Estudiantes a admitir</th>
+          <th>Nombre</th>
+          <th>Condicion</th>
+          <th>Curso a Cursar</th>
+          <th>Descuento</th>
+          <th>Total a pagar</th>
+        </tr>
+      </thead>
+      <tbody id="vAcademia_rptrAspirantes">
+        <tr>
+          <td class="vAcademia_curso">--</td>
+          <td class="vAcademia_costo">--</td>
+          <td class="vAcademia_estudiantesAdmitir">--</td>
+          <td class="vAcademia_nombre">--</td>
+          <td class="vAcademia_condicion">--</td>
+          <td class="vAcademia_cursoCursar">--</td>
+          <td class="vAcademia_descuento">--</td>
+          <td class="vAcademia_tpagar">--</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      El total inscrito en cada curso es:
+      <span id="vAcademia_lblTotalInscritos"></span>
+    </p>
+    <p>
+      El total descontado de los cursos:
+      <span id="vAcademia_lblmontoDescontado"></span>
+    </p>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
