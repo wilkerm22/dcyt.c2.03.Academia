@@ -1,3 +1,38 @@
+/*
+ACADEMIA
+
+Se dictan 3 cursos distintos (1, 2, 3), de los cuales se conoce su nombre, precio y cantidad de estudiantes a admitir.
+
+Por cada aspirante se conoce su nombre, condición (i. normal, ii. becado) y curso a elegir. 
+
+Los becados tendrán 50% dcto.
+
+Se desean procesar las inscripciones y reportar 
+
+por cada aspirante 
+a) el monto a pagar, o si es que ya no hay cupo, y 
+
+por la academia: 
+b) total inscritos en cada curso, y 
+c) monto total descontado.
+
+1=Mate 2=Fisi 3=Quim
+
+                                                                                    Respuesta A:
+Curso   costo   estudiantesAdmitir    Nombre    Condicion   cursoCursar   descuento  tPagar
+Mate     20             3              Juan         i             1          0         20
+Mate     20             3              Jose         ii            1         10         10
+Fisi     30             2              Maria        i             2          0         30
+Fisi     30             3              Petra        ii            2         15         15 
+Quim     15             1              Mario        i             3          0         15
+
+Respuesta B:
+MATEMATICAS: 2
+FISICA: 2
+QUIMICA: 1
+
+Respuesta C: Descuento total:25
+*/
 class Cl_Curso {
   constructor(curso, costo, estudiantesAdmitir) {
       this.curso = curso;
